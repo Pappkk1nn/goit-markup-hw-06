@@ -3,7 +3,14 @@ body {
     color: #434455;
     background-color: #ffffff;
   }
-  
+ :root{
+    --frt-bg: #2e2f42;
+    --light:#ffffff;
+    --navy-blue: #2e2f42;
+    --blue: #4d5ae5;
+    --whitish: #f4f4fd;
+ }
+ 
   .logo-link {
     color: #4D5AE5;
     font-size: 18px;

@@ -49,10 +49,16 @@ body {
     letter-spacing: 0.32px;
     text-decoration: none;
   }
+  .header-logo-contacts:hover,
+  .header-logo-portfolio:hover,
+  .header-logo-studio:hover{
+    color: #404bbf;
+  }
+
   .header-address{
     font-style: normal;
   }
-  
+
   .header-address-list {
     text-decoration: none;
     list-style-type: none;

@@ -49,6 +49,9 @@ body {
     letter-spacing: 0.32px;
     text-decoration: none;
   }
+  .header-address{
+    font-style: normal;
+  }
   
   .header-address-list {
     text-decoration: none;
@@ -310,4 +313,3 @@ line-height: 24px;
 letter-spacing: 0.32px;
 text-decoration: none;
 }
-  

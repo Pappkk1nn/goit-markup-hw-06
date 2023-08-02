@@ -305,7 +305,7 @@ line-height: 24px;
     background: var(--ocean, #404BBF);
   }
   
-  .main-btns-list {
+  .list {
     list-style-type: none;
   }
   

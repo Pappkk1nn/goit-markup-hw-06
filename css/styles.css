@@ -14,7 +14,7 @@ body {
   .logo-link {
     color: #4D5AE5;
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 21px;
@@ -24,7 +24,7 @@ body {
   
   .studio-header {
     color: #2E2F42;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -239,7 +239,7 @@ line-height: 24px;
   
   .studio-header-footer {
     color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -279,7 +279,7 @@ line-height: 24px;
   }
   
   .btnall {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;

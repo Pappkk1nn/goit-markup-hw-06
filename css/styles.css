@@ -263,10 +263,7 @@ list-style-type:none;
   
   .list {
     list-style-type: none;
-  }
-  
-  .link-p {
-    list-style-type: none;
+     text-decoration: none;
   }
   
   .row-list-headline {

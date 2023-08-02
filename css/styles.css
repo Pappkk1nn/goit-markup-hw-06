@@ -9,19 +9,7 @@ body {
     --navy-blue: #2e2f42;
     --blue: #4d5ae5;
     --whitish: #f4f4fd;
- }
- 
-  .logo-link {
-    color: #4D5AE5;
-    font-size: 18px;
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-decoration: none;
-  }
-  
+ } 
   .studio-header {
     color: #2E2F42;
     font-family: Raleway, sans-serif;
@@ -207,11 +195,6 @@ line-height: 24px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
   }
-  
-  .link {
-    list-style-type: none;
-  }
-  
   .main-info-team {
     background: var(--cloud, #F4F4FD);
   }
@@ -332,4 +315,24 @@ line-height: 24px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
   }
+  .link{
+    color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-decoration: none;
+  }
+.link-c{
+  color: var(--slate, #434455);
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+text-decoration: none;
+}
   

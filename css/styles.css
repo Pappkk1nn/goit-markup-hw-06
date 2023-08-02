@@ -239,7 +239,6 @@ list-style-type:none;
     letter-spacing: 0.64px;
     color: #4D5AE5;
     text-align: center;
-    border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--cloud, #F4F4FD);
     cursor: pointer;
@@ -256,6 +255,10 @@ list-style-type:none;
     letter-spacing: 0.64px;
     border-radius: 4px;
     background: var(--ocean, #404BBF);
+  }
+  .btnall:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
   }
   
   .list {

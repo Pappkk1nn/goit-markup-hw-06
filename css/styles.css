@@ -20,11 +20,6 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
   }
-  
-  .nav-list {
-    list-style-type: none;
-  }
-  
   .header-logo-studio {
     color: #2E2F42;
     font-size: 16px;

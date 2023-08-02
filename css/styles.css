@@ -20,41 +20,6 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
   }
-  .header-logo-studio {
-    color: #2E2F42;
-    font-size: 16px;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-  }
-  
-  .header-logo-portfolio {
-    color: #2E2F42;
-    font-size: 16px;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-decoration: none;
-  }
-  
-  .header-logo-contacts {
-    color: #2E2F42;
-    font-size: 16px;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-decoration: none;
-  }
-  .header-logo-contacts:hover,
-  .header-logo-portfolio:hover,
-  .header-logo-studio:hover{
-    color: #404bbf;
-  }
-
   .header-address{
     font-style: normal;
   }
@@ -302,6 +267,15 @@ list-style-type:none;
     letter-spacing: 0.54px;
     text-decoration: none;
     list-style-type: none;
+  }
+   .header-logo {
+    color: #2E2F42;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
   }
   .link:hover{
     color: #404bbf;

@@ -292,6 +292,7 @@ list-style-type:none;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-decoration: none;
+    list-style-type: none;
   }
 .link-c{
   color: var(--slate, #434455);

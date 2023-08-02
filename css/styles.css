@@ -103,6 +103,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
+    cursor: pointer;
   }
   
   .main-info-list {
@@ -246,6 +247,7 @@ list-style-type:none;
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--cloud, #F4F4FD);
+    cursor: pointer;
   }
   
   .btnall:hover {

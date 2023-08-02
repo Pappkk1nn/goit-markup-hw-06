@@ -238,7 +238,7 @@ line-height: 24px;
   }
   
   .studio-header-footer {
-    color: var(--cloud, #F4F4FD);
+    color:#f4f4fd;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;

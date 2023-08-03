@@ -85,28 +85,7 @@ body {
     list-style-type: none;
   }
   
-  .main-info-strategy {
-    color: #2E2F42;
-    font-size: 20px;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 
-   0.40px;
-word-wrap: break-word;
-list-style-type:none;
-}
-.main-info-punctuality {
-    color: #2E2F42;
-    font-size: 20px;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.40px;
-    word-wrap: break-word;
-    list-style-type: none;
-  }
-  .main-info-diligence {
+  .main-info-1{
     color: #2E2F42;
     font-size: 20px;
     font-family: Roboto, sans-serif;
@@ -123,20 +102,8 @@ list-style-type:none;
     font-family: Roboto, sans-serif;
     font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0.02em
   }
-  
-  .main-info-technologies {
-    color: #2E2F42;
-    font-size: 20px;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.40px;
-    word-wrap: break-word;
-    list-style-type: none;
-  }
-  
-  
   .second-main-info-header {
     color: var(--navyblue, #2E2F42);
     text-align: center;

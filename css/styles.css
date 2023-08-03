@@ -160,7 +160,7 @@ list-style-type:none;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
   }
   
@@ -235,7 +235,6 @@ list-style-type:none;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
-    border-radius: 4px;
     background: var(--ocean, #404BBF);
   }
   .btnall:focus {

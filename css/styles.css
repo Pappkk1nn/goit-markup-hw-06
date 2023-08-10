@@ -264,6 +264,7 @@
       }
   
   .section-four-list {
+  width: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
@@ -325,8 +326,6 @@
           letter-spacing: 0.02em;
       }
   
-      /* portfolio */
-  
           .button-p {
               border-radius: 4px;
               border: 1px solid #e7e9fc;
@@ -357,6 +356,12 @@
               justify-content: center;
               gap: 24px;
               margin-bottom: 72px;
+          }
+          .list-pp{
+            display:flex;
+            flex-wrap:wrap;
+            column-gap:24px;
+            row-gap:48px;
           }
   
      .list-p-second {

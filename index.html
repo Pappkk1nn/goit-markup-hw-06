@@ -12,6 +12,9 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
@@ -25,10 +28,10 @@
           >
           <ul class="header-link list">
             <li>
-              <a class="nav-list link" href="./index.html">Studio</a>
+              <a class="nav-list link link-switch" href="./index.html">Studio</a>
             </li>
             <li>
-              <a class="nav-list link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-list link link-switch" href="./portfolio.html">Portfolio</a>
             </li>
             <li><a class="nav-list link" href="">Contacts</a></li>
           </ul>
@@ -50,12 +53,12 @@
       </div>
     </header>
     <main>
-      <section class="section-one">
+      <section class="section-one hero">
         <div class="container">
           <h1 class="section-one-text">
             Effective Solutions for Your Business
           </h1>
-          <button class="section-one-button" type="button">
+          <button class="section-one-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -65,6 +68,11 @@
           <h2 class="visually-hidden">Title</h2>
           <ul class="section-two-list list">
             <li class="section-two-list-element">
+              <div class="logo-icon-wrapper">
+                <svg class="logo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-pic1"></use>
+                </svg>
+              </div>
               <h3 class="section-two-title">Strategy</h3>
               <p class="section-two-text">
                 Our goal is to identify the business problem to walk away with
@@ -72,6 +80,11 @@
               </p>
             </li>
             <li class="section-two-list-element">
+              <div class="logo-icon-wrapper">
+                <svg class="logo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-pic2"></use>
+                </svg>
+              </div>
               <h3 class="section-two-title">Punctuality</h3>
               <p class="section-two-text">
                 Bring the key message to the brand's audience for the best price
@@ -79,6 +92,12 @@
               </p>
             </li>
             <li class="section-two-list-element">
+              <div class="logo-icon-wrapper">
+                <svg class="logo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-pic3"></use>
+                </svg>
+              </div>
+
               <h3 class="section-two-title">Diligence</h3>
               <p class="section-two-text">
                 Research and confirm brands that present the strongest digital
@@ -86,6 +105,11 @@
               </p>
             </li>
             <li class="section-two-list-element">
+              <div class="logo-icon-wrapper">
+                <svg class="logo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-pic4"></use>
+                </svg>
+              </div>
               <h3 class="section-two-title">Technologies</h3>
               <p class="section-two-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -110,7 +134,7 @@
               <img src="./images/phone.jpg" alt="phone work" width="360" />
             </li>
             <li class="list">
-              <img src="./images/img3.jpg" alt="phone hand" width="360" />
+              <img src="./images/notebookandphone.jpg" alt="phone hand" width="360" />
             </li>
           </ul>
         </div>
@@ -118,38 +142,221 @@
       <section class="section-four">
         <div class="container">
           <h2 class="section-four-title">Our Team</h2>
-          <ul class="list section-four-list">
-            <li class="section-four-list">
+          <ul class="section-four-list list">
+            <li class="section-four-item">
               <img src="./images/Mark.jpg" alt="Mark Guerrero" width="264" />
               <div class="woker-name">
                 <h3 class="section-four-title-name">Mark Guerrero</h3>
                 <p class="section-four-text">Product Designer</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-instagram">
+                      <svg class="svg-logo" width="16" height="16">
+                        <use
+                          href="./images/icons.svg#icon-instagram"
+                        ></use>
+                        </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-twitter"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-facebook"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-linkedin"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="section-four-list">
+            <li class="section-four-item">
               <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
               <div class="woker-name">
                 <h3 class="section-four-title-name">Tom Ford</h3>
                 <p class="section-four-text">Frontend Developer</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-instagram">
+                      <svg class="svg-logo" width="16" height="16">
+                        <use
+                          href="./images/icons.svg#icon-instagram"
+                        ></use>
+                        </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-twitter"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-facebook"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-linkedin"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="section-four-list">
+            <li class="section-four-item">
               <img src="./images/camilagarcia.jpg" alt="Camila Garcia" width="264" />
               <div class="woker-name">
                 <h3 class="section-four-title-name">Camila Garcia</h3>
                 <p class="section-four-text">Marketing</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-instagram">
+                      <svg class="svg-logo" width="16" height="16">
+                        <use
+                          href="./images/icons.svg#icon-instagram"
+                        ></use>
+                        </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-twitter"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-facebook"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-linkedin"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="section-four-list">
+            <li class="section-four-item">
               <img src="./images/Daniel.jpg" alt="Daniel Wilson" width="264" />
               <div class="woker-name">
                 <h3 class="section-four-title-name">Daniel Wilson</h3>
                 <p class="section-four-text">UI Designer</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-instagram">
+                      <svg class="svg-logo" width="16" height="16">
+                        <use
+                          href="./images/icons.svg#icon-instagram"
+                        ></use>
+                        </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-twitter"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-facebook"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-logo-link"
+                      href="./images/icons.svg#icon-linkedin"
+                    >
+                      <svg class="svg-logo" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
       </section>
+<section class="section-five">
+  <div class="container">
+ <h2 class="section-five-title">Customers</h2>
+<ul class="sectiom-five-list list">
+  <li class="sectiom-five-list-item"><a class="section-five-logo" href=""></a></li>
+  <li class="sectiom-five-list-item"><a class="section-five-logo" href=""></a></li>
+  <li class="sectiom-five-list-item"><a class="section-five-logo" href=""></a></li>
+  <li class="sectiom-five-list-item"><a class="section-five-logo" href=""></a></li>  
+  <li class="sectiom-five-list-item"><a class="section-five-logo" href=""></a></li>
+  <li class="sectiom-five-list-item"><a class="section-five-logo" href=""></a></li>
+</ul>
+
+  </div>
+</section>
+
     </main>
     <footer class="footer">
       <div class="container">
@@ -162,5 +369,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -77,7 +77,9 @@
         align-items: baseline;
         margin-right: 120px;
     }
-    
+    .cont-footer{
+        display: flex;
+    }
     .header-container {
         display: flex;
         border-bottom: 1px solid #e7e9fc;
@@ -447,7 +449,7 @@
      .svg-logo {
        fill: #f4f4fd;
      }
-    .svg-logo1{
+    .svg-logoo{
         fill: currentColor;
         width: 104;
         height: 56;

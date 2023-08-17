@@ -9,10 +9,6 @@
     --light-slate: #8e8f99;
     
     }
-    svg {
-        width: 104;
-        height: 56;
-    }
     p,h1,h2,h3,h4,h5,h6 {
         padding: 0%;
         margin: 0%;
@@ -31,11 +27,55 @@
         color: var(--state);
         background-color: var(--white);
     }
-    
+    .svg-logo-footer{
+        width: 24;
+        height: 24;
+        fill:#f4f4fd; 
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .social-newtork-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#FFFFFF;
+        margin-bottom: 16px;
+    }
     .container {
         width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
+    }
+    .social-newtork-list{
+        display: flex;
+        gap: 16px;
+    }
+    .social-network-item{
+        width: 40px;
+        height: 40px;
+    }
+    .footer-logo{
+        width: 100%;
+        height: 100%;
+        background-color:#4d5ae5;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-logo:hover{
+        background-color: #31d0aa;
+    }
+    .footer-logo:focus{
+        background-color: #31d0aa;
+    }
+    .container-footer{
+        width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+        display: flex;
+        align-items: baseline;
+        margin-right: 120px;
     }
     
     .header-container {
@@ -409,6 +449,8 @@
      }
     .svg-logo1{
         fill: currentColor;
+        width: 104;
+        height: 56;
     }
     
     .section-five {

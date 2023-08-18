@@ -83,6 +83,7 @@
         width: 1440px;
     height: 312px;
     flex-shrink: 0;
+    align-items: baseline
     }
     .header-container {
         display: flex;

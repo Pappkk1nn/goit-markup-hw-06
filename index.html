@@ -450,21 +450,13 @@
       </div>
     </div>
       </footer>
-      <div class="modal is-hidden">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            <p>This is the modal body.</p>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" type="button">Save</button>
-            <button class="btn btn-secondary">Cancel</button>
-          </div>
-        </div>
-        <div class="modal-close">
-          <i class="fa fa-times"></i>
+      <div data-modal class="modal is-hidden">
+        <div class="modal-vindow">
+          <button class="modal-close" data-modal-close type="button">
+            <svg class="modal-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
         </div>
       </div>
     <script src="./js/modal.js"></script>

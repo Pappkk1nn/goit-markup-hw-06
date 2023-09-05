@@ -79,7 +79,6 @@ button {
 	cursor: pointer;
 }
 
-/* 
 .header{
 	border-bottom: 1px solid #e7e9fc;
 	background: var(--white);
@@ -212,8 +211,7 @@ button {
 .logo-span {
 	color: var(--navyblue);
 }
-
-/* .intro{
+.intro{
 	margin: 0 auto;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)),
@@ -224,7 +222,7 @@ button {
 	background-position: center;
 	background-size: cover;
 }
--title{
+.title{
 	color: var(--white);
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
